@@ -1,0 +1,33 @@
+{
+    "Playlists": {
+        "Downloads": {},
+        "Local": []
+    },
+    "Player": {
+        "last_track": [
+            "",
+            ""
+        ],
+        "last_playlist": "",
+        "track_duration": 0,
+        "player_slider": 0,
+        "volume": 100
+    },
+    "Date": {
+        "next_week_date": "",
+        "next_day_date": ""
+    },
+    "Statistic": {
+        "amount_plays": {}
+    },
+    "Rating": {
+        
+    },
+    "Emoticons": [
+        "ʕ•́ᴥ•̀ʔっ",
+        "(っ＾▿＾)۶🍸🌟🍺٩(˘◡˘ )",
+        "t(>.<t)",
+        "(*˘︶˘*).｡.:*♡",
+        "♡＼(￣▽￣)／♡"
+    ]
+}

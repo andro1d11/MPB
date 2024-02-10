@@ -1,0 +1,30 @@
+{
+    "stylesheets": {
+        "Standart dark": "QWidget#Form{background-color: #1b1c1c; }\\QPushButton{background-color: #b4c1d1; border-radius: 5px; font: bold 14px; height: 31px; }\\QPushButton:hover{background-color: white; }\\QLineEdit{background-color: #b4c1d1; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: white; }\\QListWidget{border-radius: 10px; background-color: #000000; color: white; }\\QLabel{color: white;}",
+        "Standart light": "QWidget#Form{background-color: #373d3d; }\\QPushButton{background-color: #b4c1d1; border-radius: 5px; font: bold 14px; height: 31px; }\\QPushButton:hover{background-color: white; }\\QLineEdit{background-color: #b4c1d1; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: white; }\\QListWidget{border-radius: 10px; background-color: #bfd6d6; color: black; }\\QLabel{color: white;}",
+        "Monokai": "QWidget#Form{background-color: #302f25; }\\QPushButton{background-color: #4d4a41; border-radius: 5px; font: bold 14px; color: #c4c3b9; height: 31px; }\\QPushButton:hover{background-color: #9e9d96; }\\QLineEdit{background-color: #b4c1d1; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: white; }\\QListWidget{border-radius: 10px; background-color: #1f1e1a; color: #c4c3b9; }\\QLabel{color: #c4c3b9;}",
+        "Monokai low": "QWidget#Form{background-color: #1d1e1f; }\\QPushButton{background-color: #3c3d40; border-radius: 5px; font: bold 14px; color: #c4c3b9; height: 31px; }\\QPushButton:hover{background-color: #9e9d96; }\\QLineEdit{background-color: #3c3d40; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: white; }\\QListWidget{border-radius: 10px; background-color: #28292b; color: #e0ded3; }\\QLabel{color: #c4c3b9;}",
+        "Discord": "QWidget#Form{background-color: #1d1e1f; }\\QPushButton{background-color: #505257; border-radius: 5px; font: bold 14px; color: #c4c3b9; height: 31px; }\\QPushButton:hover{background-color: #404245; }\\QLineEdit{background-color: #c7b8b7; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: white; }\\QListWidget{border-radius: 10px; background-color: #323236; color: #e0ded3; }\\QLabel{color: #c4c3b9;}",
+        "Spotify": "\\QWidget#Form{background-color: #121212;}\\QPushButton{background-color: #292828; border-radius: 5px; font: bold 14px; color: #bababa; height: 31px; }\\QPushButton:hover{color: #FFFFFF; }\\QLineEdit{background-color: #FFFFFF; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: #e3dede; }\\QListWidget{border-radius: 10px; background-color: black; color: #B3B3B3; }\\QLabel{color: #B3B3B3; }\\CustomItemWidget{backgroud-color: red; color: red; }\\QSlider::groove:horizontal{height: 5px; border: 1px solid white; background: white; margin 2px 0; }\\QSlider::handle:horizontal{background: #292828; border: 1px solid #292828; width: 9px; margin: -10px 0; border-radius: 10px;}\\QSlider::handle:horizontal:hover{background: black;}",
+        "Test": "\\QWidget#Form{background-color: #121212;}\\QPushButton{background-color: #292828; border-radius: 5px; font: bold 14px; color: #bababa; height: 31px; }\\QPushButton:hover{color: #FFFFFF; }\\QLineEdit{background-color: #FFFFFF; border-radius: 5px; font: bold 14px; height: 31px; }\\QLineEdit:hover{background-color: #e3dede; }\\QListWidget{border-radius: 10px; background-color: black; color: #B3B3B3; }\\QLabel{color: #B3B3B3;}"
+    },
+    "tracks_area_stylesheets": {
+        "Standart dark": "QListWidget{font: 20px;}\\QListWidget::item { border: 5px solid #505451; border-radius: 5px; margin: 8px; background-color: #505451;}",
+        "Standart light": "QListWidget { font: 20px;}\\QListWidget::item { border: 5px solid #b4c1d1; border-radius: 5px; margin: 8px; background-color: #b4c1d1;}",
+        "Monokai": "QListWidget { font: 20px;}\\QListWidget::item { border: 5px solid #36352e; border-radius: 5px; margin: 8px; background-color: #36352e;}",
+        "Monokai low": "QListWidget { font: 20px;}\\QListWidget::item { border: 5px solid #2c2e30; border-radius: 5px; margin: 8px; background-color: #2c2e30;}",
+        "Discord": "QListWidget { font: 20px;}\\QListWidget::item { border: 5px solid #48484f; border-radius: 5px; margin: 8px; background-color: #48484f;}",
+        "Spotify": "\\QWidget#tracks_area{font: 30px; background-color: #121212;}\\QWidget#tracks_area::item{border: 5px solid #121212; border-radius: 5px; margin: 8px; background-color: #121212;}\\QWidget#tracks_area::item:hover{background-color: #786262; color: #FFFFFF}\\QWidget#tracks_area::item:selected{background-color: #786262; color: #FFFFFF}",
+        "Test": "\\QWidget#tracks_area{font: 30px; background-color: #121212;}\\QWidget#tracks_area::item{border: 5px solid #121212; border-radius: 5px; margin: 8px; background-color: #121212;}\\QWidget#tracks_area::item:hover{background-color: #786262; color: #FFFFFF}\\QWidget#tracks_area::item:selected{background-color: #786262; color: #FFFFFF}\\QWidget#playlists::item:hover{background-color: #786262; color: red}"
+    },
+    "like_button_stylesheets": {
+        "Standart dark": "",
+        "Standart light": "",
+        "Monokai": "",
+        "Discord": "",
+        "Spotify": "QPushButton { border: none; background-color: #121212; color: red; } QPushButton:focus { outline: none; }"
+    },
+    "rate_stylesheets": {
+        "Spotify": "\\QLabel{font: 30px; background-color: #181818; border-radius: 5px}\\QWidget#rate_track_name_lbl{background-color: #FFFFFF; color: black; font: bold 25px;}\\QPushButton{font: 30px; height: 50px;}"
+    }
+}
